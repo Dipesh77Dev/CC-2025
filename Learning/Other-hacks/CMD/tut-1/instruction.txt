@@ -1,0 +1,29 @@
+cmd -- Command Prompt (Programmers mostly use this)
+
+Drive/Volume
+
+Commands -->
+
+1] systeminfo -> know information of system
+
+2] vol -> volume is same as drive which is present in our system. ex. C-drive, D-drive... etc
+
+3] ver -> OS version
+
+4] date, date /t; time, time /t -> Gives a current date & time; /t : Only give current values
+
+5] D:(Directly write drive name) -> Migrate from one drive to another  
+
+6] dir -> know existing directories/folders 
+
+7] cd -> Change Directory/folder 
+
+8] cd.. / cd .. -> Change working to parent directory
+
+IMP - 
+
+Available Drives with CMD :
+Diskpart; WMIC; FSUTIL; DIR Command
+
+
+

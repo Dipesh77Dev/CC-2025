@@ -1,0 +1,148 @@
+💻 1] Intro : 
+
+JavaScript is the world's most popular programming language. It is the programming language of the Web. Easy to Learn.It can update and change both HTML and CSS. It can calculate, manipulate and validate data.
+
+👉 1.1. Why JS ?
+HTML to define the content of web pages
+CSS to specify the layout of web pages
+JavaScript to program the behavior of web pages
+
+👉 1.2. JS can change -->
+
+a) HTML Content [methods is getElementById()]
+document.getElementById("demo").innerHTML = "Hello JavaScript";
+document.getElementById('demo').innerHTML = 'Hello JavaScript';
+
+b) HTML Attribute Values
+
+c) HTML Styles (CSS)
+document.getElementById("demo").style.fontSize = "35px";
+
+d) Show/Hide Element
+document.getElementById("demo").style.display = "none";
+document.getElementById("demo").style.display = "block";
+
+Note ->
+JavaScript and Java are completely different languages, both in concept and design.
+JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.
+ECMA-262 is the official name of the standard. ECMAScript is the official name of the language.
+
+👉 1.3. Where to add ->
+
+a) script tag in head or body
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+Old JavaScript examples may use a type attribute: <script type="text/javascript">.
+
+b) External JS 
+script.js 
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+
+HTML Code - 
+<script src="script.js"></script>
+<script src="myScript2.js"></script>
+
+External JS Advantage :  
+It separates HTML and JS code
+It makes HTML and JavaScript easier to read and maintain
+Cached JavaScript files can speed up page loads
+
+External References : 
+a. With a full URL (a full web address) -- <script src="https://www.w3schools.com/js/myScript.js"></script>
+
+b. With a file path (like /js/) -- <script src="/js/myScript.js"></script>
+
+c. Without any path -- <script src="myScript.js"></script>
+
+👉 1.4. JS Output -->
+
+a. Writing into an HTML element, using innerHTML or innerText - To access an HTML element, you can use the document.getElementById(id) method.
+
+b. Writing into the HTML output using document.write() - For testing purpose bcoz after an HTML document is loaded, will delete all existing HTML
+
+c. Writing into an alert box, using window.alert() - to display data.
+
+d. Writing into the browser console, using console.log() - for debugging data & most used by developer.
+
+e. JavaScript does not have any print object or print methods. The only exception is that you can call the window.print() method in the browser to print the content of the current window.
+
+👉 1.5. JS Statement -->
+
+let x, y, z;    // Statement 1
+x = 5;          // Statement 2
+y = 6;          // Statement 3
+z = x + y;      // Statement 4
+
+a. 
+A computer program is a list of "instructions" to be "executed" by a computer.
+In a programming language, these programming instructions are called statements.
+A JavaScript program is a list of programming statements.
+
+In HTML, JavaScript programs are executed by the web browser.
+
+Composed of : Values, Operators, Expressions, Keywords, and Comments.
+
+The statements are executed, one by one, in the same order as they are written.
+JavaScript programs (and JavaScript statements) are often called JavaScript code.
+
+b. Semicolon - It separate JavaScript statements.
+let a, b, c; 
+
+When separated by semicolons, multiple statements on one line are allowed
+a = 5; b = 6; c = a + b;
+
+c. White space - JavaScript ignores multiple spaces. You can add white space to your script to make it more readable.
+let person = "Hege";
+let person="Hege";
+
+d. Line Length & Line Breaks - 
+document.getElementById("demo").innerHTML =
+"Hello Dolly!";
+
+e. Code Block - JavaScript statements can be grouped together in code blocks, inside curly brackets {...}
+function myFunction() {
+  document.getElementById("demo1").innerHTML = "Hello Dolly!";
+  document.getElementById("demo2").innerHTML = "How are you?";
+}
+
+f. Keywords - JS statement often start with keyword to identify the JavaScript action to be performed and it has some predefined meaning. 
+JavaScript keywords are reserved words. Reserved words cannot be used as names for variables.
+
+var     [Declares a variable]
+let     [Declares a block variable]
+const   [Declares a block constant]
+if  [Marks a block of statements to be executed on a condition]
+switch  [Marks a block of statements to be executed in different cases]
+for     [Marks a block of statements to be executed in a loop]
+function	[Declares a function]
+return	[Exits a function]
+try     [Implements error handling to a block of statements]
+
+👉 1.5. JS Syntax -->
+
+// How to create variables (Declaration):
+var x;
+let y;
+
+// How to use variables:
+x = 5; (Initialization)
+y = 6;
+let z = x + y;  (Dynamic Initialization)
+
+Values ->
+Fixed & Variable 
+
+Fixed values are called Literals.
+Variable values are called Variables.
+
+a.1. JavaScript Literals
+
+Numbers are written with or without decimals
+10.50   or   1001
+
+Strings are text, written within double or single quotes
+"John Doe"  or   'John Doe'
+
